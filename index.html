@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaydeep Shelake</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    height:auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family:'Poppins',sans-serif ;
+    
+}
+.container{
+    width: 770px;
+    height: 1119px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.145);    
+        margin:2px 0px;
+
+}
+.profile{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            width: 100%;
+           padding: 0 30px; 
+      height: 30%;     
+}
+.profilePhoto{
+    width: 40%;
+    border-radius: 150px;
+}
+.profilePhoto img{
+    width: 260px;
+    height: 250px;
+    padding: 0 5px;
+    border-radius: 150px;
+    margin-left: -3px;
+}
+.name{
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.name h1{
+    color: rgb(242, 53, 103);
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(242, 53, 135,0.345);
+    white-space: nowrap;
+}
+.name p{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: gray;
+    white-space: nowrap;
+    margin: 10px 3px;
+}
+.social img{
+  width: 45px;
+  height: 45px;
+}
+.info{
+    height: 65%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.col-1{
+ width: 43%;
+ height: 95%;
+ padding: 10px 5px;
+ padding-left: 30px;
+ background: rgb(242, 53, 103);
+ display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+    
+}
+.col-1 p:nth-child(1){
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.col-1 a{
+    color:#fff;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.col-1 span {
+    color: rgb(255, 249, 249);
+    text-transform: uppercase;
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+.col-1 span a{
+    color: rgb(255, 249, 249);
+    font-size: 0.9rem;
+}
+.col-1 small{
+    color: rgb(238, 235, 235);
+}
+.col-1 .links{
+margin-top: 20px;
+}
+.col-1 .links a{
+    font-size: 1rem;
+}
+.col-1 .exp{
+    margin-top: 20px;
+}
+.col-1 .exp small{
+    font-size: 11px;
+    line-height: 1.2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.col-1 .co{
+    margin-top:20px;
+}
+.col-1 .co ul{
+    color: #fff;
+    margin-left: 20px;
+}
+.col-1 .co ul li{
+    font-size: 0.9rem;
+}
+.col-2{
+    width:54%;
+    padding-left: 20px;
+ height: 95%;
+ padding: 10px 5px;
+ padding-left: 30px;
+ display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+}
+.col-2 p{
+    color:rgb(21, 21, 21);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.col-2 .skills p:nth-child(2),.col-2 .skills .three{
+    font-size: 1rem;
+    color: rgb(72, 72, 72);
+}
+.col-2 .skills span{
+    display: inline-flex;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        margin: 0px 5px;
+}
+.skills span img{
+    width: 30px;
+}
+span a{
+    display: inline-flex;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    color: black;
+    font-size: 14px;
+}
+.text{
+    font-size: 12px;
+    margin-top:-5px !important;
+    display: flex;
+    margin-left: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 4%;
+}
+footer p{
+    font-size: 1rem;
+    color: rgb(242, 53, 103);
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+     <div class="profile">
+         <div class="profilePhoto">
+         <img src='https://github.com/jaydeep-shelake/PhotosAndOthers/blob/main/IMG_20210131_180720.jpg?raw=true' alt="">
+         </div>
+         <div class="name">
+          <h1>JAYDEEP SHELAKE</h1>
+          <p>Mechanical Engineer</p>
+          <span class="social"><a href="https://instagram.com/jaydeep_shelake101"><img src="https://img.icons8.com/fluent/2x/instagram-new.png" alt=""></a></span>
+          <span class="social"><a href="https://github.com/jaydeep-shelake"><img src="https://img.icons8.com/windows/2x/github.png" alt=""></a></span>
+          <span class="social"><a href="https://www.linkedin.com/in/jaydeep-shelake-a348771b2"><img src="https://img.icons8.com/fluent/2x/linkedin.png" alt=""></a></span>
+         </div>
+     </div>
+     <div class="info">
+         <div class="col-1">
+           <div class="edu">
+            <p>Education</p>
+            <a href="https://ritindia.edu">Rajarambapu Institute of Technology,Islampur</a><br>
+            <span>B. Tech in Mechanical Engineering(Auto)</span><br>
+            <small>Expected 2023 | Islampur,India</small>
+           </div>
+           <div class="links">
+               <p>Links</p>
+             <a href="https://github.com/jaydeep-shelake"> <i class="fab fa-github-alt"></i> Github</a><br>
+             <a href="https://jaydeep-shelake.github.io"><i class="fas fa-globe"></i> Portfolio</a>
+           </div>
+            <div class="exp">
+               <p>Expirince</p>
+               <span><a href="https://drive.google.com/file/d/1At_FhneElOGgODF2pgv7yXFed5Tg5CKd/view?usp=sharing"> 1 month internship at Shoocal.com</a></span>
+               <small>Worked as frontend developer ,the daily task was to convert PSD files to 
+                   HTML and CSS file and change data dyanmicaly coming from the backend with the help javascript</small>
+            </div>
+            <div class="co">
+                <p>Cocurricular</p>
+                <ul>
+                   <li>Team Leader</li> 
+                   <li>Public Relation</li> 
+                   <li>Part of Dream team 0.1%</li>
+                </ul>
+            </div>
+         </div>
+
+         <div class="col-2">
+            <div class="skills">
+                <p>Skills</p>
+                <p>Programming Languages</p>
+                 <span> <img src="https://github.com/jaydeep-shelake/jaydeep-shelake.github.io/blob/master/img/javascript.png?raw=true" alt="js">JavaScript</span> 
+                 <span> <img src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" alt="c"> C</span> 
+                 <span> <img src="https://img.icons8.com/color/2x/c-plus-plus-logo.png" alt="c++"> C++</span>
+                 <span> <img src="https://img.icons8.com/color/2x/java-coffee-cup-logo.png" alt="java"> Java</span>
+                 <p class="three">Web Technologies</p>
+                 <span> <img src="https://github.com/jaydeep-shelake/jaydeep-shelake.github.io/blob/master/img/html-5.png?raw=true" alt=""> HTML</span> 
+                 <span> <img src="https://github.com/jaydeep-shelake/jaydeep-shelake.github.io/blob/master/img/css3.png?raw=true" alt=""> CSS</span> 
+                 <span> <img src="https://github.com/jaydeep-shelake/jaydeep-shelake.github.io/blob/master/img/javascript.png?raw=true" alt=""> JavaScript</span>
+                 <span> <img src="https://github.com/jaydeep-shelake/jaydeep-shelake.github.io/blob/master/img/sass.png?raw=true" alt=""> Sass</span>
+                 <p class="three">Web Frameworks /Database</p>
+                 <span><img src="https://img.icons8.com/color/2x/react-native.png" alt="">React.JS</span>
+                 <span><img src="https://sdtimes.com/wp-content/uploads/2016/04/0426.sdt-nodejs.png" alt="">Node.JS</span>
+                 <span><img src="https://img.icons8.com/color/2x/mongodb.png" alt="">MongoDB</span>
+                 <p style="margin-top: 8px;">Certification</p>
+                 <span><a href="https://drive.google.com/file/d/1HPvkuFE9ttamJRXANSSTl_juHW_cH6Nk/view?usp=sharing"><img src="https://symbols-electrical.getvecta.com/stencil_77/103_coursera-icon.ec48d4afeb.png" alt="" style="margin-right:1px;">HTML,CSS & JavaScript for Webdevelopers</a></span>
+                 <span><a href="https://drive.google.com/file/d/1D5Oq2ekcSDn1ztsOeZzSOyNiEi4o9Wzy/view?usp=sharing"><img src="https://symbols-electrical.getvecta.com/stencil_77/103_coursera-icon.ec48d4afeb.png" alt="" style="margin-right:1px;">Server side development with Node.JS</a></span>
+                 <span><a href=""><img src="https://community.theforeman.org/uploads/default/original/2X/0/0ed1b167e673843b951ab22d629801d3b7616352.png" alt="">Morden React Redux</a></span>
+                 <p style="margin-top:5px;">Projects</p>
+                  <span><a href="https://github.com/jaydeep-shelake/PizzaDelivery"> <img src="https://img.icons8.com/color/2x/pizza.png" alt="">Pizza Delivery System |</a><span style="color: gray;">Node.JS</span><br></span>
+                  <small class="text">Pizza Delivery Web app made using Nodejs,Express.js and mongodb</small>
+                  <small class="text">Users can login add pizzas to cart and ordered the pizzas & can check staus of order</small>
+                  <span style="margin-top:2px;"><a href="https://github.com/jaydeep-shelake/Story.js"> <img src="https://img.icons8.com/fluent/2x/agreement-like.png" alt="">Story.js |</a><span style="color: gray;">Node.JS</span></span>
+                  <small class="text"> A Socail media Web app made using Nodejs,Express.js mongodb and Google OAuth</small>
+                  <small class="text">Users can login with GOAuth and create thier own stories and post over the app</small>
+                  <span style="margin-top:2px;"><a href=""> <img src="https://image.flaticon.com/icons/png/512/870/870910.png" alt="">Netflix Clone |</a><span style="color: gray;">React.JS</span></span>
+                  <small class="text"> A Netflix clone made using React.JS,Redux and Firebase</small>
+                  <small class="text">User can login/singnup ,add subscription using firbase-stripe extention</small>
+            </div>
+         </div>
+     </div>
+  <footer>
+     <p>Made using HTML & CSS</p>
+  </footer>
+  </div>  
+</body>
+</html>
